@@ -1,7 +1,5 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeroDev01/Astronite/main/GuiLibrary")()
 
-local getasset = getsynasset or getcustomasset
-local ScreenGuitwo = game:GetService("CoreGui").RektskyNotificationGui
 local lplr = game:GetService("Players").LocalPlayer
 function runcode(func)
     func()
