@@ -7,12 +7,8 @@ function runcode(func)
     func()
 end
 
-lib:CreateWindow()
-local Tabs = {
-    ["Combat"] = lib:CreateTab("Combat",Color3.fromRGB(252,80,68),"combat"),
-    ["Blatant"] = lib:CreateTab("Blatant",Color3.fromRGB(255,148,36),"movement"),
-    ["Render"] = lib:CreateTab("Render",Color3.fromRGB(59,170,222),"render"),
-    ["Utility"] = lib:CreateTab("Utility",Color3.fromRGB(83,214,110),"player"),
-    ["World"] = lib:CreateTab("World",Color3.fromRGB(52,28,228),"world"),
-    ["Exploits"] = lib:CreateTab("Exploits",Color3.fromRGB(157,39,41),"exploit")
-}
+library.CreateTab({ ["Name"] = 'Combat', })
+library.CreateTab({ ["Name"] = 'Blatant, })
+library.CreateTab({ ["Name"] = 'Movement, })
+library.CreateTab({ ["Name"] = 'Visuals, })
+library.CreateTab({ ["Name"] = 'World, })
